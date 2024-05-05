@@ -11,6 +11,11 @@ body {
     height: 56vmin;
     object-fit: cover;
     object-position: 100% center;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 #image-track {
@@ -20,4 +25,9 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(0%, -50%);
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
